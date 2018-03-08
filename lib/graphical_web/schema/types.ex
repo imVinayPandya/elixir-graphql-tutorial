@@ -13,6 +13,6 @@ defmodule GraphicalWeb.Schema.Types do
     field(:id, :id)
     field(:title, :string)
     field(:body, :string)
-    field(:user, :user, resolve: assoc(:users))
+    field(:user, :user, resolve: assoc(:user))
   end
 end
